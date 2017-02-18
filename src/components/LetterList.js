@@ -18,7 +18,7 @@ const LetterList = (props) => {
 
   return(
     <div>
-      <Letter letterContent={letterContent} />
+      <Letter letterContent={letterContent} addresse={props.addresse} />
     </div>
   )
 }

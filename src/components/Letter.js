@@ -11,7 +11,7 @@ const Letter = (props) => {
             (Order of Merlin, First Class, Grand Sorc., Chf. Warlock, Supreme Mugwump, International Confed. of Wizards)
           </p>
           <br />
-      <p>Dear Addressee,</p>
+      <p>Dear {props.addresse},</p>
       <div>{props.letterContent}</div>
       <p>Yours sincerely,</p>
       <br />
