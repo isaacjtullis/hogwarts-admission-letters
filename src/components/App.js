@@ -35,6 +35,7 @@ class App extends React.Component {
       <div>
         <UserForm
           handleChange={this.handleChange}
+          applicationNotice={this.state.applicationNotice}
           handleApplicationAcceptClick={this.handleApplicationAcceptClick}
           handleApplicationRejectClick={this.handleApplicationRejectClick}
         />
